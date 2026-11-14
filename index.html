@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trade With Zerox | Official VIP Hub</title>
+    <title>Trade With Zerox | Official VIP Access</title>
     
     <!-- Single Lightweight Font for Instant Loading -->
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -335,7 +335,7 @@
         <h1 class="title">Trade With Zerox</h1>
         <p class="subtitle">Next-Gen Market Analysis & VIP Hub</p>
 
-        <!-- TOP CTA BUTTON (NATIVE REDIRECT & TRACKING) -->
+        <!-- TOP CTA BUTTON (NATIVE REDIRECT & TRACKING FOR LEAD CAMPAIGN) -->
         <a id="join-telegram-btn" href="https://t.me/+Nfz_5zB10oEyNDA1" class="cta-btn">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
             Join Telegram Now
@@ -369,12 +369,12 @@
 
     </div>
 
-    <!-- TRACKING SCRIPT: EXACT NATIVE EVENT TRACK -->
+    <!-- TRACKING SCRIPT: UPDATED TO FIRE 'Lead' EVENT FOR LEAD CAMPAIGN -->
     <script>
         document.getElementById('join-telegram-btn').addEventListener('click', function() {
-            // Fires Subscribe event immediately for Meta Engagement Ad
+            // Fires Lead event immediately on button tap for Lead Conversion Campaigns
             if (typeof fbq === 'function') {
-                fbq('track', 'Subscribe');
+                fbq('track', 'Lead');
             }
         });
     </script>
